@@ -52,6 +52,7 @@ header nav ul li {
     text-align: center;
     margin: 40px;
 }
+
 .encabesadopag h1{
     font-size: 60px;
     padding-top: 20px;
@@ -62,20 +63,20 @@ header nav ul li {
 }
 .encabesadopag p{
     padding-top: 50px;
-    font-size: 20px;
+    font-size: 30px;
     padding-right: 100px;
     border-left-width: 33px;
     padding-left: 100px;
 }
-@media (max-width: 600px){  /* max-width hasta 600px */
-    .encabesado p{
-        padding-top: 50px;
-        font-size: 20px;
-        border-left-width: 33px;
-        padding-right: 5px;
-        padding-left: 5px
-        }       
+@media (max-width: 600px){
+    .encabesadopag {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
+
+
+
 
 
 /* fin de encabesado */
@@ -202,6 +203,35 @@ header nav ul li {
 
 /* fin pagina murale */
 
+/*  */
+/*  */
+/*  */
+/* inicio pagina de ventas */
 
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+
+.ventas {
+    color:aliceblue;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-right: 100px;
+    border-left-width: 33px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+@media (max-width: 600px){
+    .ventas{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .ventasp {
+        font-size: 20px;
+    }
+
+}
 
 
