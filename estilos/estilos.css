@@ -48,6 +48,10 @@ body{
         padding-left: 5px;
         padding-right: 5px;
     }
+    .encabesadopag p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 /* fin de encabesado de paginas */
@@ -71,7 +75,7 @@ body{
     box-shadow: 0px 1px 20px 0px white;
 
 }
-@media (max-width: 600px){  /* max-width hasta 600px */
+@media (max-width: 1000px){  /* max-width hasta 600px */
 
     .grid-enlace{
         display: inline;
@@ -142,6 +146,30 @@ body{
     border-radius: 25px;
     padding: 100px;
     font-size: 25px;   
+}
+@media (max-width: 800px){
+    .cont-pagdos .contuno {
+        color: aliceblue;
+        display: inline;
+        justify-content: center;
+        gap: 40px;
+        margin: 10px;
+    }
+    .cont-pagdos .contdos {
+        color: aliceblue;
+        display: inline;
+        justify-content: center;
+        gap: 40px;
+        margin: 10px;
+    }
+    .cont-pagdos .conttres {
+        color: aliceblue;
+        display: inline;
+        justify-content: center;
+        gap: 40px;
+        margin: 10px;
+    }
+
 }
 
 /* fin sobre nosotros */
