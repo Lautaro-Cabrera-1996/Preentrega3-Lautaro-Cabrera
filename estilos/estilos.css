@@ -139,6 +139,7 @@ footer a {
     .grid-enlace img{
         width: 300px;
         height: 120px;
+        margin: 0px;
     }     
 }
 @media (min-width: 700px) and (max-width: 1000px){ 
@@ -196,6 +197,7 @@ footer a {
 }
 
 @media (max-width: 700px){ 
+  
     .cont-pagdos .contuno {
         color: aliceblue;
         display: inline;
@@ -219,35 +221,29 @@ footer a {
         padding-bottom: 50px;
         font-size: 20px;  
     }
-
+    .cont-pagdos img {
+        width: 310px;
+        height: 310px;
+        margin: 0px;
+    }
 }
 
 @media (min-width: 700px) and (max-width: 1000px){
-    .cont-pagdos .contuno {
-        color: aliceblue;
-        display: inline;
-        justify-content: center;
+    .cont-pagdos .contuno p {
+        padding: 100px 10px;
+        font-size: 20px;
 
     }
-    .cont-pagdos .contdos {
-        color: aliceblue;
-        display: inline;
-        justify-content: center;
-          
+    .cont-pagdos .contdos p {
+        padding: 100px 10px;
+        font-size: 20px;    
     }
-    .cont-pagdos .conttres {
-        color: aliceblue;
-        display: inline;
-        justify-content: center; 
+    .cont-pagdos .conttres p {
+        padding: 100px 10px;
+        font-size: 20px;
     }  
 }
-
 /* fin sobre nosotros */
-
-
-/*  */
-/*  */
-/*  */
 /* inicio pagina de murales */
 
 .contenedormurales{
@@ -270,12 +266,25 @@ footer a {
     box-shadow: 0px 1px 20px 0px white;
 
 }
+@media (max-width: 700px){ 
+   .contenedormurales{
+    display: block;
+   }
+   .contenedormurales img{
+   padding: 10px;
+}
+}
 
+@media (min-width: 700px) and (max-width: 1000px){
+    .contenedormurales{
+        grid-template-columns: 1fr 1fr;
+       }
+       .contenedormurales img{
+        padding: 20px;   
+    }
+}
+    
 /* fin pagina murale */
-
-/*  */
-/*  */
-/*  */
 /* inicio pagina de ventas */
 
 .carousel-inner img {
@@ -293,15 +302,21 @@ footer a {
     text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .ventas{
         padding-left: 10px;
         padding-right: 10px;
     }
-    .ventasp {
+    .ventasp{
         font-size: 20px;
     }
- }
+}
+    @media (min-width: 700px) and (max-width: 1000px){
+        .ventasp {
+            font-size: 20px;
+        }
+    }
+   
 
  .container-fluid .row img{
     height: 270px;
@@ -310,10 +325,32 @@ footer a {
  }
 /* fin ventas */
 /* inicio formulario */
-.formulario {
-    background: linear-gradient(10deg, red, white, red);
-    display: inline-block;
-    border: 2px solid white;
-    
+.formulario{
+    background-color: rgb(231, 231, 231);
+    width: 400px;
+    padding: 20px;
+    margin: auto;
 
 }
+.formulario .espacio{
+    width: 350px;
+}
+@media (max-width: 700px) {
+    .formulario{
+        background-color: rgb(231, 231, 231);
+        width: 300px;
+        height: 350px;
+        padding: 20px;
+        margin: auto;
+    
+    
+    }
+    .formulario .espacio{
+        width: 250px;
+    }
+    .formulario textarea{
+        width: 250px;
+        height: 100px;
+    }
+}
+/* fin formulario */
