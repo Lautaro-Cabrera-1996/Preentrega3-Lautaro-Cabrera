@@ -318,11 +318,13 @@ footer a {
     }
    
 
- .container-fluid .row img{
+ /* .container-fluid .row img{
     height: 270px;
     width: auto;
     
- }
+ } *//* ATENCION!!!!!!!!!!!! */
+
+ 
 /* fin ventas */
 /* inicio formulario */
 .formulario{
