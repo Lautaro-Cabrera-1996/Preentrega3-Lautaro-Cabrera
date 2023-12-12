@@ -1,0 +1,60 @@
+.encabesado{
+    color: $colorletras;
+    text-align: center;
+    margin: 40px;
+    & h1{
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    & h2{
+    font-size: 35px;
+    }
+    & p{
+    padding-top: 50px;
+    font-size: 30px;
+    padding-right: 100px;
+    border-left-width: 33px;
+    padding-left: 100px;
+    }
+}
+
+
+@media (max-width: $mobile){
+    .encabesado{
+            & h1{
+            font-size: 40px;
+            }
+            & h2{
+            font-size: 30px;
+            }
+            & p{
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 10px;
+            font-size: 20px;
+            }
+
+    }
+}
+@media (min-width: $mobile) and (max-width: $tablet){
+    .encabesado{
+            & h1{
+            font-size: 60px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            }
+            & h2{
+            font-size: 35px;
+            }
+            & p{
+            padding-top: 50px;
+            font-size: 20px;
+            border-left-width: 33px;
+            padding-left: 50px;
+            padding-right: 50px;
+
+            }
+
+    }
+}

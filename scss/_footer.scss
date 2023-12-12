@@ -1,0 +1,12 @@
+footer {
+    position: absolute;
+    right: 10px;
+    & a{
+      color: $colorletras;
+      padding: 5px;
+      &:hover{
+        border-bottom: 0,5px solid;
+        background: #ff0000;
+      }
+    }   
+}

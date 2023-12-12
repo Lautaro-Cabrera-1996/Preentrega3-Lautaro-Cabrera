@@ -1,0 +1,28 @@
+/* ajuste carrusel */
+.carousel-inner{
+    & img{
+        width: 100%;
+        max-height: 460px;
+    }
+ } 
+ /* fin ajuste */
+ .ventas{
+    & &__parrafo{
+    color:$colorletras;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-right: 100px;
+    border-left-width: 33px;
+    padding-left: 100px;
+    text-align: center;
+    }
+ }  
+ @media (max-width: $mobile){
+    .ventas{
+        & &__parrafo{
+             font-size: 15px;
+             padding-left: 10px;
+             padding-right: 10px;
+        }
+    }
+}
