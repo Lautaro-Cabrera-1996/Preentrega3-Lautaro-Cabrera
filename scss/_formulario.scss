@@ -1,5 +1,5 @@
 .formulario{
-    background-color: rgb(231, 231, 231);
+    background: linear-gradient(45deg, red, white, red);
     width: 400px;
     padding: 20px;
     margin: auto;
@@ -9,7 +9,6 @@
 }
 @media (max-width: $mobile) {
     .formulario{
-        background-color: rgb(231, 231, 231);
         width: 300px;
         height: 350px;
         padding: 20px;
@@ -17,7 +16,7 @@
         & .espacio{
             width: 250px;
         }
-        & .textarea{
+        & &__comentario{
             width: 250px;
             height: 100px;
         }
