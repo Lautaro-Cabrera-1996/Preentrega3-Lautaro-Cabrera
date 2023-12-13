@@ -1,27 +1,27 @@
 /* Variables */
-@import "vars";
+@import "./componentes/vars";
 /* reset */
-@import "reset";
+@import "./reset";
 /* body */
-@import "body";
+@import "./body";
 /* ajuste de menu */
-@import "menu";
+@import "./componentes/menu";
 /* ajuste en estilo de links */
-@import "link";
+@import "./link";
 /* inicio encabesado */
-@import ":encabesado";
+@import "./componentes/encabesado";
 /* Inicio de footer */
-@import "footer";
+@import "./componentes/footer";
 /* Index-Grid enlaces */
-@import "indexgrid";
+@import "./indexgrid";
 /* inicio de pagina "Sobre nosotros" */
-@import "nosotros";
+@import "./nosotros";
 /* Inicio pagina murales */
-@import "pagmurales";
+@import "./pagmurales";
 /* Ajustes de carrusel-pagina ventas */
- @import "pagventas";
+ @import "./pagventas";
 /* inicio de formulario */
-@import "formulario";
+@import "./formulario";
 
     
 
