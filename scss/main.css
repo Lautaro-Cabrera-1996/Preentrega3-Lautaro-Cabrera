@@ -141,6 +141,9 @@ footer a:hover {
   }
 }
 /* inicio de pagina "Sobre nosotros" */
+.historia {
+  text-align: center;
+}
 .historia img {
   width: 310px;
   height: 310px;
