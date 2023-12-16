@@ -24,6 +24,9 @@
         text-align: center;
         & img{
             padding: 10px;
+            &:hover{
+                box-shadow: none;
+            }
            }
     }
 }
@@ -34,9 +37,7 @@
             & img{
                 padding: 20px;
                 &:hover{
-                    box-shadow: 0px 0px 0px 0px;
-                    transition: transform .2s; 
-                    transform: scale(1.2); 
+                    box-shadow: none;
                 }
             }
         }
