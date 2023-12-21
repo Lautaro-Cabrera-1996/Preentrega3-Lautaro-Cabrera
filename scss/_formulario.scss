@@ -6,6 +6,9 @@
     & .espacio{
         width: 350px;
     }
+    & &__comentario{
+        width: 350px;
+    }
 }
 @media (max-width: $mobile) {
     .formulario{

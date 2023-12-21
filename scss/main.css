@@ -303,6 +303,9 @@ footer a:hover {
 .formulario .espacio {
   width: 350px;
 }
+.formulario .formulario__comentario {
+  width: 350px;
+}
 
 @media (max-width: 700px) {
   .formulario {
