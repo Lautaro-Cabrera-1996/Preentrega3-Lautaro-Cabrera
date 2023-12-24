@@ -271,8 +271,8 @@ footer a:hover {
     padding-left: 20px;
   }
   .videos iframe {
-    width: 250px;
-    height: 150px;
+    width: 310px;
+    height: 200px;
   }
 }
 @media (min-width: 700px) and (max-width: 1000px) {
@@ -302,7 +302,7 @@ footer a:hover {
     padding-left: 20px;
   }
   .videos iframe {
-    width: 430px;
+    width: 375px;
     height: 250px;
   }
 }
