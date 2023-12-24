@@ -6,7 +6,7 @@
     margin: 30px;
     }
     p{
-    border: 3px solid $colorletras;
+    border: 1px solid $colorletras;
     text-align: center;
     border-radius: 25px;
     padding: 100px;
@@ -14,7 +14,7 @@
     }
     & &__uno{
     color: $colorletras;
-    display: column;
+    display: flex;
     justify-content: center;
     gap: 40px;
     margin: 10px;
@@ -35,6 +35,25 @@
     margin: 10px;
     }
 }
+.videos{
+    text-align: center;
+    color: $colorletras;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    & p{
+        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    & iframe{
+       width: 430px;
+       height: 250px;
+    }
+    
+}
+
 @media (max-width: $mobile){
     .historia{
         & img{
@@ -66,6 +85,24 @@
         justify-content: center;
         }
     }
+    .videos{
+        text-align: center;
+        color: $colorletras;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+        & p{
+            padding-bottom: 30px;
+            padding-top: 30px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        & iframe{
+           width: 430px;
+           height: 250px;
+        }
+        
+    }
 }
    
 @media (min-width: $mobile) and (max-width: $tablet){
@@ -88,6 +125,24 @@
                 font-size: 20px;
             }
         }
+    }
+    .videos{
+        text-align: center;
+        color: $colorletras;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+        & p{
+            padding-bottom: 30px;
+            padding-top: 30px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        & iframe{
+           width: 430px;
+           height: 250px;
+        }
+        
     }
         
 }

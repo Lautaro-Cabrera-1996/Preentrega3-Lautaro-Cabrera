@@ -12,7 +12,7 @@
 body {
   background-image: url(../imagenes/fondoweb.jpeg);
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   color: aliceblue;
 }
 
@@ -166,7 +166,7 @@ footer a:hover {
   margin: 30px;
 }
 .historia p {
-  border: 3px solid aliceblue;
+  border: 1px solid aliceblue;
   text-align: center;
   border-radius: 25px;
   padding: 100px;
@@ -174,7 +174,7 @@ footer a:hover {
 }
 .historia .historia__uno {
   color: aliceblue;
-  display: column;
+  display: flex;
   justify-content: center;
   gap: 40px;
   margin: 10px;
@@ -193,6 +193,24 @@ footer a:hover {
   justify-content: center;
   gap: 40px;
   margin: 10px;
+}
+
+.videos {
+  text-align: center;
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.videos p {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.videos iframe {
+  width: 430px;
+  height: 250px;
 }
 
 @media (max-width: 700px) {
@@ -224,6 +242,23 @@ footer a:hover {
     display: inline;
     justify-content: center;
   }
+  .videos {
+    text-align: center;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  .videos p {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .videos iframe {
+    width: 430px;
+    height: 250px;
+  }
 }
 @media (min-width: 700px) and (max-width: 1000px) {
   .historia .historia__uno p {
@@ -237,6 +272,23 @@ footer a:hover {
   .historia .historia__tres p {
     padding: 100px 10px;
     font-size: 20px;
+  }
+  .videos {
+    text-align: center;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  .videos p {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .videos iframe {
+    width: 430px;
+    height: 250px;
   }
 }
 /* Inicio pagina murales */
