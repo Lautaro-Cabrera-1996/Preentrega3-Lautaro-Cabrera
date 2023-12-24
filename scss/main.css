@@ -195,6 +195,14 @@ footer a:hover {
   margin: 10px;
 }
 
+.masinfo p {
+  text-align: center;
+  color: aliceblue;
+  font-size: 25px;
+  padding-top: 15px;
+  border-top: solid 1px aliceblue;
+}
+
 .videos {
   text-align: center;
   color: aliceblue;
@@ -241,6 +249,13 @@ footer a:hover {
     color: aliceblue;
     display: inline;
     justify-content: center;
+  }
+  .masinfo p {
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .videos {
     text-align: center;
