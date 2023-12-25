@@ -20,8 +20,9 @@
 }
 @media (max-width: $mobile){
     .contenedormurales{
-        display: block;
-        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
         & img{
             padding: 10px;
             &:hover{
@@ -33,7 +34,9 @@
    
 @media (min-width: $mobile) and (max-width: $tablet){
     .contenedormurales{
+        display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
             & img{
                 padding: 20px;
                 &:hover{

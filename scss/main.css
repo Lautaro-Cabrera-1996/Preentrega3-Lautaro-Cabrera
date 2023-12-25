@@ -93,14 +93,17 @@ main a :hover {
 footer {
   position: absolute;
   right: 10px;
+  padding: 10px;
 }
 footer a {
   color: aliceblue;
   padding: 5px;
 }
-footer a:hover {
-  border-bottom: 0, 5px solid;
-  background: #ff0000;
+footer a img {
+  width: 30px;
+}
+footer a img:hover {
+  box-shadow: 0px 1px 20px 0px red;
 }
 
 /* Index-Grid enlaces */
@@ -258,11 +261,11 @@ footer a:hover {
     padding-right: 10px;
   }
   .videos {
-    text-align: center;
     color: aliceblue;
     display: grid;
     grid-template-columns: 1fr;
     gap: 5px;
+    align-items: center;
   }
   .videos p {
     padding-bottom: 30px;
@@ -294,7 +297,7 @@ footer a:hover {
     text-align: center;
     color: aliceblue;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 5px;
   }
   .videos p {
@@ -332,8 +335,9 @@ footer a:hover {
 
 @media (max-width: 700px) {
   .contenedormurales {
-    display: block;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
   }
   .contenedormurales img {
     padding: 10px;
@@ -344,7 +348,9 @@ footer a:hover {
 }
 @media (min-width: 700px) and (max-width: 1000px) {
   .contenedormurales {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
   }
   .contenedormurales img {
     padding: 20px;

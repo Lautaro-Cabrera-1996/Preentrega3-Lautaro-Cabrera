@@ -1,12 +1,17 @@
 footer {
     position: absolute;
     right: 10px;
+    padding: 10px;
     & a{
       color: $colorletras;
       padding: 5px;
-      &:hover{
-        border-bottom: 0,5px solid;
-        background: #ff0000;
+      & img{
+        width: 30px;
+        &:hover{
+          box-shadow: 0px 1px 20px 0px red;
+
+        }
       }
-    }   
+    }
+      
 }

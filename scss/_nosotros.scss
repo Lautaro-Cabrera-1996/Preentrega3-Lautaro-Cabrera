@@ -106,11 +106,11 @@
     
     } 
     .videos{
-        text-align: center;
         color: $colorletras;
         display: grid;
         grid-template-columns: 1fr;
         gap: 5px;
+        align-items: center;
         & p{
             padding-bottom: 30px;
             padding-top: 30px;
@@ -152,7 +152,7 @@
         text-align: center;
         color: $colorletras;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 5px;
         & p{
             padding-bottom: 30px;
