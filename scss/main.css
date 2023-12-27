@@ -13,7 +13,6 @@ body {
   background-image: url(../imagenes/fondoweb.jpeg);
   background-size: cover;
   background-position: center;
-  color: aliceblue;
 }
 
 /* ajuste de menu */
@@ -164,7 +163,7 @@ footer a img:hover {
   text-align: center;
 }
 .historia img {
-  width: 310px;
+  width: 400px;
   height: 310px;
   margin: 30px;
 }
