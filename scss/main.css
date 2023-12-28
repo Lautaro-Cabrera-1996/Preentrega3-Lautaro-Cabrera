@@ -186,8 +186,8 @@ footer a img:hover {
   display: flex;
   justify-content: center;
   gap: 40px;
-  flex-direction: row-reverse;
   margin: 10px;
+  flex-direction: row-reverse;
 }
 .historia .historia__tres {
   color: aliceblue;

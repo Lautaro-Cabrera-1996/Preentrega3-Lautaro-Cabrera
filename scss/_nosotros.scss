@@ -1,3 +1,4 @@
+
 .historia{
     text-align: center;
      img{
@@ -13,26 +14,14 @@
     font-size: 25px;
     }
     & &__uno{
-    color: $colorletras;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin: 10px;
+    @include nosotros;
     }
     & &__dos{
-    color: $colorletras;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+    @include nosotros;
     flex-direction: row-reverse;
-    margin: 10px;
     }
     & &__tres{
-    color: $colorletras;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin: 10px;
+    @include nosotros;
     }
 }
 .masinfo{
