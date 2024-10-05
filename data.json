@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "nombre": "REMERA VIDA AL BARRIO",
+        "categoria": "indumentaria",
+        "stock": 5,
+        "precio": 6000,
+        "rutaImagen": "remera-vab.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "STIKER LOGO",
+        "categoria": "accesorios",
+        "stock": 25,
+        "precio": 2000,
+        "rutaImagen": "stiker.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "CUADRO DE INSTITUTO",
+        "categoria": "accesorios",
+        "stock": 2,
+        "precio": 4000,
+        "rutaImagen": "cuadro.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "REMERA VIDA AL BARRIO 5 AÑOS",
+        "categoria": "indumentaria",
+        "stock": 5,
+        "precio": 6000,
+        "rutaImagen": "remera-5.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "LLAVERO",
+        "categoria": "accesorios",
+        "stock": 20,
+        "precio": 2000,
+        "rutaImagen": "llavero.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "PULCERA",
+        "categoria": "accesorios",
+        "stock": 20,
+        "precio": 1500,
+        "rutaImagen": "pulceras.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "BUSO DE INSTITUTO",
+        "categoria": "indumentaria",
+        "stock": 10,
+        "precio": 8000,
+        "rutaImagen": "buso.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "STIKER DE ESCUDO",
+        "categoria": "accesorios",
+        "stock": 25,
+        "precio": 2000,
+        "rutaImagen": "stiker-escudo.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "PANTALON",
+        "categoria": "indumentaria",
+        "stock": 10,
+        "precio": 4000,
+        "rutaImagen": "pantalon.jpg"
+    }
+]
