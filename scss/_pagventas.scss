@@ -159,3 +159,21 @@
 .oculto{
     display: none !important;
 }
+
+
+
+@media (max-width: $mobile){
+    
+    #contenedorProductos{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .botonesUno{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+}
+   

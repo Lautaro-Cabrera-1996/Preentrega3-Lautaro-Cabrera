@@ -517,6 +517,18 @@ footer a img:hover {
   display: none !important;
 }
 
+@media (max-width: 700px) {
+  #contenedorProductos {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .botonesUno {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+}
 /* inicio de formulario */
 .formulario {
   background: linear-gradient(45deg, red, white, red);
