@@ -174,6 +174,23 @@
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
+        margin: 0px;
     }
+
+    .botonesUno #botonVerOcultar{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin: 50px;
+    }
+
+    .botonesDos{
+        display: flex;
+        font-size: 5px;
+        align-items: center;
+        margin: 0px;
+    }
+
+
 }
    
