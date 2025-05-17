@@ -3,6 +3,7 @@ productos = []
 cantidades = []
 
 while True:
+    print("\n PROGRAMA DE CONTROL DE STOCK")
     print("\n Menú de opciones:")
     print("1. Agregar producto")
     print("2. Ver productos agotados")
@@ -56,3 +57,7 @@ while True:
 
     else:
         print("Opción incorrecta")
+
+
+
+
